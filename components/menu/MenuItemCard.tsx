@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { MenuItem } from '@/lib/types';
 import { formatPrice } from '@/lib/utils';
 import { Flame, Leaf, Plus, Check } from 'lucide-react';
@@ -29,10 +30,11 @@ export default function MenuItemCard({ item }: MenuItemCardProps) {
     <div className="card group" id={item.slug}>
       <div className="relative bg-gradient-to-br from-cream-200 to-cream-300 h-48 rounded-lg mb-4 overflow-hidden">
         {item.image_url ? (
-          <img
+          <Image
             src={item.image_url}
             alt={item.name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+            fill
+            className="object-cover group-hover:scale-110 transition-transform duration-300"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-6xl">

@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">About Us</h1>
           <p className="text-xl text-gray-100">
-            Discover the story behind Calgary's best Karahi restaurant
+            Discover the story behind Calgary&apos;s best Karahi restaurant
           </p>
         </div>
       </div>
@@ -88,8 +88,8 @@ export default function AboutPage() {
                 </p>
                 <p>
                   From our famous Fatima Special Karahi to our perfectly grilled BBQ items, every 
-                  dish tells a story of dedication, quality, and authentic taste. We believe that 
-                  food is more than just sustenance—it's an experience that brings people together.
+                  dish tells a story of dedication, quality, and authentic taste. We believe that
+                  food is more than just sustenance—it&apos;s an experience that brings people together.
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function AboutPage() {
           <div className="card bg-gradient-to-r from-primary-600 to-primary-700 text-white">
             <h2 className="text-3xl font-display font-bold mb-4">Experience the Difference</h2>
             <p className="text-xl mb-8">
-              Visit us today and taste why we're Calgary's favorite Karahi restaurant
+              Visit us today and taste why we&apos;re Calgary&apos;s favorite Karahi restaurant
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/menu" className="btn-secondary">

@@ -38,12 +38,13 @@ export default function CartPage() {
               <div key={item.menuItem.id} className="card">
                 <div className="flex gap-4">
                   {/* Item Image */}
-                  <div className="w-24 h-24 bg-gradient-to-br from-primary-50 to-secondary-50 rounded-lg flex-shrink-0 overflow-hidden">
+                  <div className="w-24 h-24 bg-gradient-to-br from-primary-50 to-secondary-50 rounded-lg flex-shrink-0 overflow-hidden relative">
                     {item.menuItem.image_url ? (
-                      <img
+                      <Image
                         src={item.menuItem.image_url}
                         alt={item.menuItem.name}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center text-4xl">

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { MenuItem } from '@/lib/types';
 import { supabase } from '@/lib/supabase/client';
 import { formatPrice } from '@/lib/utils';
@@ -53,10 +54,11 @@ export default function FeaturedDishes() {
         <Link key={dish.id} href={`/menu#${dish.slug}`} className="card group cursor-pointer">
           <div className="relative bg-gradient-to-br from-primary-50 to-secondary-50 h-48 rounded-lg mb-4 overflow-hidden">
             {dish.image_url ? (
-              <img
+              <Image
                 src={dish.image_url}
                 alt={dish.name}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                fill
+                className="object-cover group-hover:scale-110 transition-transform duration-300"
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center text-6xl">

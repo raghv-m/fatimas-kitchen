@@ -51,8 +51,8 @@ export default function OrderPage() {
           <div className="text-6xl mb-6">🍛</div>
           <h2 className="text-3xl font-display font-bold mb-4">Ready to Order?</h2>
           <p className="text-lg text-gray-600 mb-8">
-            Browse our delicious menu and add your favorite dishes to your cart. 
-            We'll deliver fresh, hot food right to your door!
+            Browse our delicious menu and add your favorite dishes to your cart.
+            We&apos;ll deliver fresh, hot food right to your door!
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

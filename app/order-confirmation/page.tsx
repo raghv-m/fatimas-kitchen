@@ -19,7 +19,7 @@ function OrderConfirmationContent() {
 
           <h1 className="text-4xl font-display font-bold mb-4">Order Confirmed!</h1>
           <p className="text-xl text-gray-600 mb-8">
-            Thank you for your order. We've received it and are preparing your delicious meal!
+            Thank you for your order. We&apos;ve received it and are preparing your delicious meal!
           </p>
 
           {orderNumber && (
@@ -36,7 +36,7 @@ function OrderConfirmationContent() {
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Order Received</h3>
-                <p className="text-sm text-gray-600">We're preparing your order</p>
+                <p className="text-sm text-gray-600">We&apos;re preparing your order</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
@@ -60,9 +60,9 @@ function OrderConfirmationContent() {
           </div>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-            <h3 className="font-bold text-blue-900 mb-2">What's Next?</h3>
+            <h3 className="font-bold text-blue-900 mb-2">What&apos;s Next?</h3>
             <ul className="text-sm text-blue-800 space-y-2 text-left">
-              <li>✓ You'll receive a confirmation email shortly</li>
+              <li>✓ You&apos;ll receive a confirmation email shortly</li>
               <li>✓ Our chefs are preparing your order with care</li>
               <li>✓ Your food will be delivered fresh and hot</li>
               <li>✓ Track your order status via email updates</li>

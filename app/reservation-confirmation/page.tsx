@@ -45,7 +45,7 @@ function ReservationConfirmationContent() {
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Please Arrive On Time</h3>
-                <p className="text-sm text-gray-600">We'll hold your table for 15 minutes</p>
+                <p className="text-sm text-gray-600">We&apos;ll hold your table for 15 minutes</p>
               </div>
             </div>
           </div>
@@ -53,10 +53,10 @@ function ReservationConfirmationContent() {
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
             <h3 className="font-bold text-blue-900 mb-2">Important Information</h3>
             <ul className="text-sm text-blue-800 space-y-2 text-left">
-              <li>✓ You'll receive a confirmation email shortly</li>
+              <li>✓ You&apos;ll receive a confirmation email shortly</li>
               <li>✓ Please arrive within 15 minutes of your reservation time</li>
               <li>✓ Call us if you need to modify or cancel your reservation</li>
-              <li>✓ We're excited to serve you our delicious food!</li>
+              <li>✓ We&apos;re excited to serve you our delicious food!</li>
             </ul>
           </div>
 
